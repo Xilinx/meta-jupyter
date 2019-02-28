@@ -1,2 +1,2 @@
-inherit pypi setuptools
 require python-pyzmq.inc
+inherit setuptools3
