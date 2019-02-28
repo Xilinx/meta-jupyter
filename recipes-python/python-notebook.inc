@@ -16,6 +16,9 @@ RDEPENDS_${PN} += " \
 	${PYTHON_PN}-jinja2 \
 	${PYTHON_PN}-terminado \
 	${PYTHON_PN}-unixadmin \
+	${PYTHON_PN}-prometheus-client \
+	${PYTHON_PN}-send2trash \
+	${PYTHON_PN}-pyzmq \
 	"
 
 do_install_append() {
