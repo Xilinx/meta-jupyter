@@ -22,4 +22,5 @@ RDEPENDS_${PN} += " \
 	${PYTHON_PN}-bleach \
 	${PYTHON_PN}-testpath \
 	${PYTHON_PN}-nbformat \
+	${PYTHON_PN}-defusedxml \
 	"
