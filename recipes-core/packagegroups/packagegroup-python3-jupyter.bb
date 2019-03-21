@@ -52,6 +52,5 @@ RDEPENDS_${PN} = "  \
 	python3-simplegeneric \
 	python3-pandocfilters \
 	python3-traitlets \
-	python3-backports-abc \
 	python3-matplotlib \
 	"

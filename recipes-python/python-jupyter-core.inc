@@ -7,6 +7,7 @@ SRC_URI[sha256sum] = "ba70754aa680300306c699790128f6fbd8c306ee5927976cbe48adacf2
 
 RDEPENDS_${PN} += " \
 	${PYTHON_PN}-traitlets \
+	${PYTHON_PN}-setuptools \
 	"
 
 PYPI_PACKAGE = "jupyter_core"

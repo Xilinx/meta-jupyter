@@ -23,4 +23,5 @@ RDEPENDS_${PN} += " \
 	${PYTHON_PN}-notebook \
 	${PYTHON_PN}-ipywidgets \
 	${PYTHON_PN}-nbconvert \
+	${PYTHON_PN}-sqlite3 \
 	"

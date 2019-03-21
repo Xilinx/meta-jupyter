@@ -19,6 +19,7 @@ RDEPENDS_${PN} += " \
 	${PYTHON_PN}-prometheus-client \
 	${PYTHON_PN}-send2trash \
 	${PYTHON_PN}-pyzmq \
+	${PYTHON_PN}-sqlite3 \
 	"
 
 do_install_append() {

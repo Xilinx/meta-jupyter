@@ -9,7 +9,6 @@ RDEPENDS_${PN} += " \
 	${PYTHON_PN}-ipython \
 	${PYTHON_PN}-jupyter-client \
 	${PYTHON_PN}-pygments \
-	${PYTHON_PN}-prompt-toolkit \
 	"
 
 PYPI_PACKAGE = "jupyter_console"

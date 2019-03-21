@@ -15,6 +15,8 @@ inherit pypi pkgconfig
 
 RDEPENDS_${PN} += "${PYTHON_PN}-multiprocessing"
 
+BBCLASSEXTEND = "native"
+
 FILES_${PN}-dbg =+ "${PYTHON_SITEPACKAGES_DIR}/zmq/backend/cython/.debug"
 
 do_compile_prepend() {

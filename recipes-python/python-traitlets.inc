@@ -10,3 +10,5 @@ RDEPENDS_${PN} += " \
 	${PYTHON_PN}-decorator \
 	${PYTHON_PN}-ipython-genutils \
 	"
+
+BBCLASSEXTEND = "native"

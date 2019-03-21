@@ -22,6 +22,7 @@ RDEPENDS_${PN} = " \
 	${PYTHON_PN}-pytz \
 	${PYTHON_PN}-cycler \
 	${PYTHON_PN}-kiwisolver \
+	${PYTHON_PN}-pyparsing \
 	"
 
 SRC_URI[md5sum] = "d6af3dfae557ea4046fef96cf617fa24"

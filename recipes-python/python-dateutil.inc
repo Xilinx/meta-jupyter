@@ -14,3 +14,4 @@ RDEPENDS_${PN} += "\
 	${PYTHON_PN}-shell \
 	${PYTHON_PN}-six \
 	"
+DEPENDS += "${PYTHON_PN}-setuptools-scm-native"
