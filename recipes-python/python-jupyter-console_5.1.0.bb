@@ -2,7 +2,7 @@ inherit pypi setuptools
 require python-jupyter-console.inc
 
 RDEPENDS_${PN} += " \
-	${PYTHON_PN}-prompt-toolkit \
+	${PYTHON_PN}-prompt-toolkit (=1.0.15) \
 	"
 
 SRC_URI[md5sum] = "20eff10b4cd93f081207bfa0cc5a3b0e"

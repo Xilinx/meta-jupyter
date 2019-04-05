@@ -12,7 +12,7 @@ RDEPENDS_${PN} = "  \
 	python3-send2trash \
 	python3-matplotlib \
 	python3-tornado \
-	python3-prompt-toolkit2 \
+	python3-prompt-toolkit \
 	python3-singledispatch \
 	python3-backports-shutil-get-terminal-size \
 	python3-sympy \

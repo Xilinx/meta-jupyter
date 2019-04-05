@@ -43,7 +43,7 @@ RDEPENDS_${PN} = "  \
         python-prometheus-client \
         python-wcwidth \
         python-jupyter-client \
-        python-prompt-toolkit2 \
+        python-prompt-toolkit1 \
         python-webencodings \
         python-jupyter-console \
         python-ptyprocess \

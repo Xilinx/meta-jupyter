@@ -13,7 +13,6 @@ RDEPENDS_${PN} += " \
 	${PYTHON_PN}-decorator \
 	${PYTHON_PN}-pickleshare \
 	${PYTHON_PN}-traitlets (>= 4.2) \
-	${PYTHON_PN}-prompt-toolkit2 (>= 2.0.0) \
 	${PYTHON_PN}-pygments \
 	${PYTHON_PN}-backcall \
 	"
