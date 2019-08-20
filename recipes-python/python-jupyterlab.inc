@@ -7,6 +7,7 @@ SRC_URI[sha256sum] = "deba0b2803640fcad72c61366bff11d5945173015961586d5e3b2f629f
 RDEPENDS_${PN} += " \
 	${PYTHON_PN}-notebook \
 	${PYTHON_PN}-jupyterlab-server \
+	${PYTHON_PN}-runpy \
 	"
 
 FILES_${PN}_append = " /usr/share/etc/jupyter/jupyter_notebook_config.d/jupyterlab.json /usr/share/jupyter/lab "

@@ -20,6 +20,7 @@ RDEPENDS_${PN} += " \
 	${PYTHON_PN}-send2trash \
 	${PYTHON_PN}-pyzmq \
 	${PYTHON_PN}-sqlite3 \
+	${PYTHON_PN}-runpy \
 	"
 
 do_install_append() {
