@@ -2,8 +2,6 @@ SUMMARY = "Converting Jupyter Notebooks"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=d235895c780fa844e875697e16e5787b"
 
-SRC_URI[sha256sum] = "a8a2749f972592aa9250db975304af6b7337f32337e523a2c995cc9e12c07807"
-
 # Requirements from PIP:
 # jupyter-core(OK), bleach, nbformat(OK), mistune(OK), pygments(OK),
 # pandocfilters(OK), jinja2(-), entrypoints(-), traitlets(decorator, six, ipython-genutils), testpath(-)
