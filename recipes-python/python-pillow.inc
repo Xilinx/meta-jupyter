@@ -1,17 +1,17 @@
 SUMMARY = "Python library that provides an easy interface to read and write a wide range of image data, including animated images, video, volumetric data, and scientific formats."
 SECTION = "devel/python"
 LICENSE = "Proprietary"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=fbbe34c5344f5c542baf8ef7621305d0"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=55c0f320370091249c1755c0d2b48e89"
 
-inherit pkgconfig distutils-tools
+inherit pkgconfig distutils3
 
 SRC_URI = " \
     https://github.com/python-pillow/Pillow/archive/${PV}.tar.gz \
     file://0001-build-always-disable-platform-guessing.patch \
 "
 
-SRC_URI[md5sum] = "4889a8297f4068e339cbe8878db1834c"
-SRC_URI[sha256sum] = "606eca4a0801461e34d3bb4eb94df28fab5b3f6702eac8d1840d2da6a6d5d970"
+SRC_URI[md5sum] = "dfaa11389b8c165c99bf86c4d87ba56e"
+SRC_URI[sha256sum] = "5d8c0d6fc1e4b662f0e7c40ed83e06367a90e8b11b227d5141b51badae56248e"
 
 S = "${WORKDIR}/Pillow-${PV}"
 

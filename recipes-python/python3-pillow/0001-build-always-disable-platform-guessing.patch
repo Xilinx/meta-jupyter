@@ -1,20 +1,26 @@
-From f95790326dde62e98894a61528f5374f15a10dcf Mon Sep 17 00:00:00 2001
-From: Ismo Puustinen <ismo.puustinen@intel.com>
-Date: Mon, 27 Feb 2017 13:16:23 +0200
+From 45e63dd9ae1df8fb900658cda5bce90da202d479 Mon Sep 17 00:00:00 2001
+From: Sai Hari Chandana Kalluri <chandana.kalluri@xilinx.com>
+Date: Fri, 8 Nov 2019 14:37:50 -0800
 Subject: [PATCH] build: always disable platform guessing.
 
 Upstream-status: Inappropriate
 
 Signed-off-by: Ismo Puustinen <ismo.puustinen@intel.com>
+
+NOTE: the original patch for thud release is taken from
+meta-maker recipe. However for zeus release update/rebase the patch as
+setup.py for python-pillow has changed
+
+Signed-off-by: Sai Hari Chandana Kalluri <chandana.kalluri@xilinx.com>
 ---
- setup.py | 20 +-------------------
- 1 file changed, 1 insertion(+), 19 deletions(-)
+ setup.py | 12 +-----------
+ 1 file changed, 1 insertion(+), 11 deletions(-)
 
 diff --git a/setup.py b/setup.py
-index 1dc146d..dcdb8e8 100755
+index 76bdfb1..a1e24ce 100755
 --- a/setup.py
 +++ b/setup.py
-@@ -251,7 +251,7 @@ class pil_build_ext(build_ext):
+@@ -425,7 +425,7 @@ class pil_build_ext(build_ext):
          #
          # add platform directories
  
@@ -23,22 +29,7 @@ index 1dc146d..dcdb8e8 100755
              pass
  
          elif sys.platform == "cygwin":
-@@ -351,14 +351,6 @@ class pil_build_ext(build_ext):
-                     raise ValueError(
-                         "Unable to identify Linux platform: `%s`" % platform_)
- 
--                # XXX Kludge. Above /\ we brute force support multiarch. Here we
--                # try Barry's more general approach. Afterward, something should
--                # work ;-)
--                self.add_multiarch_paths()
--
--        elif sys.platform.startswith("gnu"):
--            self.add_multiarch_paths()
--
-         elif sys.platform.startswith("freebsd"):
-             _add_directory(library_dirs, "/usr/local/lib")
-             _add_directory(include_dirs, "/usr/local/include")
-@@ -373,16 +365,6 @@ class pil_build_ext(build_ext):
+@@ -505,16 +505,6 @@ class pil_build_ext(build_ext):
  
          # FIXME: check /opt/stuff directories here?
  
@@ -52,9 +43,9 @@ index 1dc146d..dcdb8e8 100755
 -            # alpine, at least
 -            _add_directory(library_dirs, "/lib")
 -
-         # on Windows, look for the OpenJPEG libraries in the location that
-         # the official installer puts them
          if sys.platform == "win32":
+             if PLATFORM_MINGW:
+                 _add_directory(
 -- 
-2.9.3
+2.7.4
 
