@@ -6,6 +6,3 @@ LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://PKG-INFO;beginline=8;endline=8;md5=e910b35b0ef4e1f665b9a75d6afb7709"
 
 PYPI_PACKAGE = "mpmath"
-
-SRC_URI[md5sum] = "af5cc956b2673b33a25c3e57299bae7b"
-SRC_URI[sha256sum] = "68ddf6426dcda445323467d89892d2cffbbd1ae0b31ac1241b1b671749d63222"
