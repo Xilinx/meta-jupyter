@@ -2,8 +2,6 @@ SUMMARY = "Jupyter notebook"
 LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://PKG-INFO;beginline=8;endline=8;md5=e910b35b0ef4e1f665b9a75d6afb7709"
 
-SRC_URI[sha256sum] = "d908673a4010787625c8952e91a22adf737db031f2aa0793ad92f6558918a74a"
-
 RDEPENDS_${PN} += " \
 	${PYTHON_PN}-ipykernel \
 	${PYTHON_PN}-jupyter-core \
@@ -20,7 +18,6 @@ RDEPENDS_${PN} += " \
 	${PYTHON_PN}-send2trash \
 	${PYTHON_PN}-pyzmq \
 	${PYTHON_PN}-sqlite3 \
-	${PYTHON_PN}-runpy \
 	"
 
 do_install_append() {
