@@ -1,0 +1,27 @@
+From 04795a50b7ed3bdf618e3fca12dd26e244269aa0 Mon Sep 17 00:00:00 2001
+From: Sai Hari Chandana Kalluri <chandana.kalluri@xilinx.com>
+Date: Thu, 16 Apr 2020 18:57:15 -0700
+Subject: [PATCH] Modify setup.py to set exectuable='python3' when building the
+ package from source
+
+Signed-off-by: Sai Hari Chandana Kalluri <chandana.kalluri@xilinx.com>
+---
+ setup.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/setup.py b/setup.py
+index 793ce93..09bb31d 100644
+--- a/setup.py
++++ b/setup.py
+@@ -121,7 +121,7 @@ if any(a.startswith(('bdist', 'install')) for a in sys.argv):
+         argv = make_ipkernel_cmd(executable='python')
+     # When installing from source, the full `sys.executable` can be used.
+     if any(a.startswith('install') for a in sys.argv):
+-        argv = make_ipkernel_cmd()
++        argv = make_ipkernel_cmd(executable='python3')
+     dest = os.path.join(here, 'data_kernelspec')
+     if os.path.exists(dest):
+         shutil.rmtree(dest)
+-- 
+2.7.4
+
