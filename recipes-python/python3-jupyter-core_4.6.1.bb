@@ -6,8 +6,8 @@ SRC_URI[sha256sum] = "a183e0ec2e8f6adddf62b0a3fc6a2237e3e0056d381e536d3e7c7ecc30
 
 do_install_append() {
 	# this files will be installed by python-jupyter
-	rm -f ${D}/usr/lib/python3.5/site-packages/jupyter.py
-	rm -f ${D}/usr/lib/python3.5/site-packages/__pycache__/jupyter.cpython-35.pyc
+	rm -f ${D}${PYTHON_SITEPACKAGES_DIR}/jupyter.py
+	rm -f ${D}${PYTHON_SITEPACKAGES_DIR}/__pycache__/jupyter.cpython-37.pyc
 }
 
 
