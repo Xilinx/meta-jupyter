@@ -11,5 +11,5 @@ RDEPENDS_${PN} += " \
         ${PYTHON_PN}-difflib \
         "
 
-SRC_URI[md5sum] = "cfdc0d7ce446ac3984cd7ef3e5850354"
-SRC_URI[sha256sum] = "666b0ee4a7a1220f65d367617f2cd3ffddff3e205f3f16a0284df30e774c2a9c"
+SRC_URI[md5sum] = "eac40cda515ee71e3bb008c404ca3ac1"
+SRC_URI[sha256sum] = "caba44724b994a8a5e086460bb212abc5a8bc46951bf4a9a1210745953622eb9"
