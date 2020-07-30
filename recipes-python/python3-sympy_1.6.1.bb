@@ -5,7 +5,7 @@ HOMEPAGE = "http://sympy.org/"
 SUMMARY = "Computer algebra system (CAS) in Python"
 SECTION = "devel/python"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=611b41534dbf5aa01d7c827bf667ef66"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=ebb06e9df8f57522b72d0edb0fcf83d4"
 
 PYPI_PACKAGE = "sympy"
 
@@ -13,5 +13,5 @@ RDEPENDS_${PN} += " \
         ${PYTHON_PN}-mpmath \
         "
 
-SRC_URI[md5sum] = "478072d75b564c9356990e3027d464e6"
-SRC_URI[sha256sum] = "71a11e5686ae7ab6cb8feb5bd2651ef4482f8fd43a7c27e645a165e4353b23e1"
+SRC_URI[md5sum] = "8bdf8473751722fd1714aa7125b1478b"
+SRC_URI[sha256sum] = "7386dba4f7e162e90766b5ea7cab5938c2fe3c620b310518c8ff504b283cb15b"
