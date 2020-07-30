@@ -10,6 +10,6 @@ RDEPENDS_${PN} += " \
 
 PYPI_PACKAGE = "prometheus_client"
 
-SRC_URI[md5sum] = "3ce79ec28a913c2cb85269d9f9912282"
-SRC_URI[sha256sum] = "71cd24a2b3eb335cb800c7159f423df1bd4dcd5171b234be15e3f31ec9f622da"
+SRC_URI[md5sum] = "5d03eac084b3a0d73a98fcb409c7fb0b"
+SRC_URI[sha256sum] = "c6e6b706833a6bd1fd51711299edee907857be10ece535126a158f911ee80915"
 
