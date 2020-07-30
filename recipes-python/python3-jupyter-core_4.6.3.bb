@@ -20,8 +20,8 @@ do_install_append() {
 
 BBCLASSEXTEND = "native"
 
-SRC_URI[md5sum] = "8456f961604616c242d6c5817b38508d"
-SRC_URI[sha256sum] = "a183e0ec2e8f6adddf62b0a3fc6a2237e3e0056d381e536d3e7c7ecc3067e244"
+SRC_URI[md5sum] = "aaed36bf01888c9e810462e6226db70a"
+SRC_URI[sha256sum] = "394fd5dd787e7c8861741880bdf8a00ce39f95de5d18e579c74b882522219e7e"
 
 do_install_append() {
 	# this files will be installed by python-jupyter
