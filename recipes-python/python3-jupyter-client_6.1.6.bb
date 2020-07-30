@@ -1,7 +1,7 @@
 inherit pypi setuptools3
 
-SRC_URI[md5sum] = "7eed8b4259b4daeea4504a98a4799621"
-SRC_URI[sha256sum] = "60e6faec1031d63df57f1cc671ed673dced0ed420f4377ea33db37b1c188b910"
+SRC_URI[md5sum] = "ca545481d8a875b5eb66ff48625395ef"
+SRC_URI[sha256sum] = "b360f8d4638bc577a4656e93f86298db755f915098dc763f6fc05da0c5d7a595"
 
 SUMMARY = "Jupyter protocol implementation and client libraries"
 LICENSE = "BSD"
