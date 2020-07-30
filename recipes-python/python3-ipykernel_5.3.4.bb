@@ -36,8 +36,8 @@ RDEPENDS_${PN} += " \
 
 FILES_${PN} += "/usr/share/jupyter"
 
-SRC_URI[md5sum] = "c1d0ff3d8f7e8517a44fef33516929ec"
-SRC_URI[sha256sum] = "b368ad13edb71fa2db367a01e755a925d7f75ed5e09fbd3f06c85e7a8ef108a8"
+SRC_URI[md5sum] = "d9ad6a4a4235940d65300e33f541edf5"
+SRC_URI[sha256sum] = "9b2652af1607986a1b231c62302d070bc0534f564c393a5d9d130db9abbbe89d"
 
 SRC_URI_append = " \
 	file://0001-Modify-setup.py-to-set-exectuable-python3-when-build.patch \
