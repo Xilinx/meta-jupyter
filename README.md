@@ -13,8 +13,6 @@ Please open pull requests for any changes.
 
 Maintainers:
 
-  Manjukumar Harthikote Matha (manjukumar.harthikote-matha@xilinx.com)
-
   Sai Hari Chandana Kalluri (chandana.kalluri@xilinx.com)
 
 
