@@ -11,5 +11,5 @@ RDEPENDS_${PN} += " \
 
 FILES_${PN}_append = " /usr/share/etc/jupyter/jupyter_notebook_config.d/jupyterlab.json /usr/share/jupyter/lab "
 
-SRC_URI[md5sum] = "b41310612c2808f48aca58f6c00fb46d"
-SRC_URI[sha256sum] = "2188a9bcaaf0b6a68ff9098a481f37ece8231634b862fd3c9adedc466aac79f2"
+SRC_URI[md5sum] = "3cd2e427fd0dfaa859851b33c2c99075"
+SRC_URI[sha256sum] = "8aa9bc4b5020e7b9ec6e006d516d48bddf7d2528680af65840464ee722d59db3"
