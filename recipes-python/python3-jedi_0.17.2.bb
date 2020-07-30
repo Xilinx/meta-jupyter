@@ -1,7 +1,7 @@
 inherit pypi setuptools3
 
-SRC_URI[md5sum] = "ba88266caac41988ffb4fd6041a3c354"
-SRC_URI[sha256sum] = "ba859c74fa3c966a22f2aeebe1b74ee27e2a462f56d3f5f7ca4a59af61bfe42e"
+SRC_URI[md5sum] = "f012668907d76cebe9c4766f3b806fcf"
+SRC_URI[sha256sum] = "86ed7d9b750603e4ba582ea8edc678657fb4007894a12bcf6f4bb97892f31d20"
 
 SUMMARY = "JEDI: An autocompletion tool for Python that can be used for text editors"
 LICENSE = "MIT"
