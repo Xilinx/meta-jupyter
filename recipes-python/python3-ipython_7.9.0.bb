@@ -12,7 +12,6 @@ SRC_URI[sha256sum] = "dfd303b270b7b5232b3d08bd30ec6fd685d8a58cabd54055e3d69d8f02
 
 SUMMARY = "IPython: Productive Interactive Computing"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://COPYING.rst;md5=93ef43efbd25773bbce636bbad9d247f"
 
 PYPI_PACKAGE_EXT = "tar.gz"
 RDEPENDS_${PN} += " \
