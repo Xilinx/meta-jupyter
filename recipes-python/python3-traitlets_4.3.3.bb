@@ -8,6 +8,7 @@ RDEPENDS_${PN} += " \
         ${PYTHON_PN}-six \
         ${PYTHON_PN}-decorator \
         ${PYTHON_PN}-ipython-genutils \
+        ${PYTHON_PN}-json \
         "
 
 BBCLASSEXTEND = "native"
