@@ -24,6 +24,7 @@ RDEPENDS_${PN} += " \
         ${PYTHON_PN}-traitlets (>= 4.2) \
         ${PYTHON_PN}-pygments \
         ${PYTHON_PN}-backcall \
+        ${PYTHON_PN}-modules \
         "
 
 BBCLASSEXTEND = "native"
