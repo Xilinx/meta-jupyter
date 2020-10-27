@@ -11,7 +11,8 @@ PYPI_PACKAGE = "bleach"
 
 RDEPENDS_${PN} += " \
         ${PYTHON_PN}-six \
-        ${PYTHON_PN}-html5lib \
+        ${PYTHON_PN}-webencodings \
+        ${PYTHON_PN}-packaging \
         bash \
         "
 
