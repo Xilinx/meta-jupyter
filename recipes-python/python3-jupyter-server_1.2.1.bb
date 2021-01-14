@@ -6,10 +6,11 @@ LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://COPYING.md;md5=d235895c780fa844e875697e16e5787b"
 
 PYPI_PACKAGE = "jupyter_server"
+PN="python3-jupyter_server"
 
 inherit pypi setuptools3
 
-SRC_URI[sha256sum] = "3eb8e6cccab8da5e13df954fb6e3544ad9b0591948fe1e017428824e23303888"
+SRC_URI[sha256sum] = "5c55bdd098159f3e57faad102fa91de5b3f2f46ca8be01ad3d289e85a5beba9c"
 
 do_install_append() {
 	# this files will be installed by python3-notebook
