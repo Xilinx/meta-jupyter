@@ -12,4 +12,5 @@ RDEPENDS_${PN} = "  \
 	python3-pandas \
 	python3-ipywidgets \
 	python3-requests \
+	python3-jupyter_server \
 	"
