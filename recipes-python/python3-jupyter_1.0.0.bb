@@ -26,4 +26,5 @@ RDEPENDS_${PN} += " \
         ${PYTHON_PN}-ipywidgets \
         ${PYTHON_PN}-nbconvert \
         ${PYTHON_PN}-sqlite3 \
+        ${PYTHON_PN}-requests \
         "

@@ -11,4 +11,5 @@ RDEPENDS_${PN} = "  \
 	python3-psutil \
 	python3-pandas \
 	python3-ipywidgets \
+	python3-requests \
 	"
