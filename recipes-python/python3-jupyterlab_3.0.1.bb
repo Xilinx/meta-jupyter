@@ -11,6 +11,7 @@ DEPENDS+= " \
 RDEPENDS_${PN} += " \
         ${PYTHON_PN}-notebook \
         ${PYTHON_PN}-jupyterlab-server \
+        ${PYTHON_PN}-anyio \
         "
 
 FILES_${PN}_append = " /usr/share/etc/jupyter/jupyter_notebook_config.d/jupyterlab.json /usr/share/jupyter/lab "
