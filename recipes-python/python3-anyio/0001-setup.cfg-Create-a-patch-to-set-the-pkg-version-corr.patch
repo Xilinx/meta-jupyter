@@ -1,0 +1,24 @@
+From 4d841afcdbbc3f3df683d45356dbe2bebb933e9b Mon Sep 17 00:00:00 2001
+From: Sai Hari Chandana Kalluri <chandana.kalluri@xilinx.com>
+Date: Fri, 22 Jan 2021 13:21:23 -0800
+Subject: [PATCH] setup.cfg: Create a patch to set the pkg version correctly
+
+Signed-off-by: Sai Hari Chandana Kalluri <chandana.kalluri@xilinx.com>
+---
+ setup.cfg | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/setup.cfg b/setup.cfg
+index e681202..374a8d6 100644
+--- a/setup.cfg
++++ b/setup.cfg
+@@ -1,5 +1,6 @@
+ [metadata]
+ name = anyio
++version = 2.0.2
+ description = High level compatibility layer for multiple asynchronous event loop implementations
+ long_description = file: README.rst
+ author = Alex Grönholm
+-- 
+2.7.4
+
