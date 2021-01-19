@@ -10,7 +10,7 @@ DEPENDS+= " \
 
 RDEPENDS_${PN} += " \
         ${PYTHON_PN}-notebook \
-        ${PYTHON_PN}-jupyterlab-server \
+        ${PYTHON_PN}-jupyterlab_server \
         ${PYTHON_PN}-anyio \
         ${PYTHON_PN}-sniffio \
         ${PYTHON_PN}-nbclassic \
