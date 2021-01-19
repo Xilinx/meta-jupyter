@@ -13,6 +13,7 @@ RDEPENDS_${PN} = "  \
 	python3-ipywidgets \
 	python3-requests \
 	python3-jupyter_server \
+	python3-jupyterlab_server \
 	python3-anyio \
 	python3-sniffio \
 	python3-nbclassic \
