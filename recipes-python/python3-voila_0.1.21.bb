@@ -8,7 +8,7 @@ inherit pypi setuptools3
 
 RDEPENDS_${PN} += " \
 	python3-async-generator \
-	python3-jupyter_server \
+	python3-jupyter-server \
 	python3-nbconvert \
 	python3-jupyterlab-pygments \
 	python3-pygments \

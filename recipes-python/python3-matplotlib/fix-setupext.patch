@@ -1,0 +1,11 @@
+--- matplotlib-3.0.2.orig/setupext.py	2018-11-10 20:06:50.000000000 -0800
++++ matplotlib-3.0.2/setupext_new.py	2019-02-02 15:03:18.763233516 -0800
+@@ -152,7 +152,7 @@
+         'gnu0': ['/usr'],
+         'aix5': ['/usr/local'],
+         }
+-    return basedir_map.get(sys.platform, ['/usr/local', '/usr'])
++    return basedir_map.get(sys.platform, [os.environ['STAGING_LIBDIR']])
+ 
+ 
+ def get_include_dirs():
