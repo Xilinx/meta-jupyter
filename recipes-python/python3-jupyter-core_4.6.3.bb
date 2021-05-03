@@ -27,6 +27,7 @@ do_install_append() {
 	# this files will be installed by python-jupyter
 	rm -f ${D}${PYTHON_SITEPACKAGES_DIR}/jupyter.py
 	rm -f ${D}${PYTHON_SITEPACKAGES_DIR}/__pycache__/jupyter.cpython-37.pyc
+	rm -f ${D}${PYTHON_SITEPACKAGES_DIR}/__pycache__/jupyter.cpython-38.pyc
 }
 
 
