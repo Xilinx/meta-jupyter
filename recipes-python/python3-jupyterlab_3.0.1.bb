@@ -17,6 +17,14 @@ RDEPENDS_${PN} += " \
         ${PYTHON_PN}-nbclassic \
         "
 
+do_install_append(){
+
+	install -d ${D}/usr/share/jupyter/lab
+	cp -r ${S}/jupyterlab/schemas ${D}/usr/share/jupyter/lab/
+	cp -r ${S}/jupyterlab/themes ${D}/usr/share/jupyter/lab/
+	cp -r ${B}/lib/jupyterlab/static ${D}/usr/share/jupyter/lab/
+}
+
 FILES_${PN}_append = " /usr/share/etc/jupyter/jupyter_notebook_config.d/jupyterlab.json /usr/share/jupyter/lab "
 
 BBCLASSEXTEND = "native"
