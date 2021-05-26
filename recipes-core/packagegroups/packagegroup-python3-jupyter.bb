@@ -4,6 +4,7 @@ inherit packagegroup
 
 RDEPENDS_${PN} = "  \
 	python3-jupyterlab \
+	python3-jupyterlab_widgets \
 	python3-matplotlib \
 	python3-pillow \
 	python3-pydot \
