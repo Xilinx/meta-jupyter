@@ -26,7 +26,7 @@ DEPENDS += " \
         ${PYTHON_PN}-simplegeneric-native \
         "
 
-RDEPENDS_${PN} += " \
+RDEPENDS:${PN} += " \
         ${PYTHON_PN}-ipython \
         ${PYTHON_PN}-traitlets \
         ${PYTHON_PN}-tornado \
@@ -34,12 +34,12 @@ RDEPENDS_${PN} += " \
         ${PYTHON_PN}-simplegeneric \
         "
 
-FILES_${PN} += "/usr/share/jupyter"
+FILES:${PN} += "/usr/share/jupyter"
 
 SRC_URI[md5sum] = "d9ad6a4a4235940d65300e33f541edf5"
 SRC_URI[sha256sum] = "9b2652af1607986a1b231c62302d070bc0534f564c393a5d9d130db9abbbe89d"
 
-SRC_URI_append = " \
+SRC_URI:append = " \
 	file://0001-Modify-setup.py-to-set-exectuable-python3-when-build.patch \
 "
 

@@ -1,0 +1,25 @@
+From 7082f41403ea5d41fbc28379e9aee348f5a23d3a Mon Sep 17 00:00:00 2001
+From: Sai Hari Chandana Kalluri <chandana.kalluri@xilinx.com>
+Date: Thu, 15 Jul 2021 09:51:54 -0700
+Subject: [meta-jupyter][master][PATCH] layer.conf: Add honister hardknott to
+ LAYER COMPAT
+
+Signed-off-by: Sai Hari Chandana Kalluri <chandana.kalluri@xilinx.com>
+---
+ conf/layer.conf | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/conf/layer.conf b/conf/layer.conf
+index b49b0e1..43ed8b1 100644
+--- a/conf/layer.conf
++++ b/conf/layer.conf
+@@ -15,5 +15,5 @@ BBFILE_PRIORITY_jupyter-layer = "7"
+ 
+ LAYERDEPENDS_jupyter-layer = "core meta-python"
+ 
+-LAYERSERIES_COMPAT_jupyter-layer = "gatesgarth"
++LAYERSERIES_COMPAT_jupyter-layer = "gatesgarth honister hardknott"
+ 
+-- 
+2.7.4
+

@@ -9,7 +9,7 @@ SRC_URI[sha256sum] = "3c4c520fdb9db59ef139915a5db79f8b51bc2a7257ea0389f30c846883
 
 PYPI_PACKAGE = "bleach"
 
-RDEPENDS_${PN} += " \
+RDEPENDS:${PN} += " \
         ${PYTHON_PN}-six \
         ${PYTHON_PN}-webencodings \
         ${PYTHON_PN}-packaging \

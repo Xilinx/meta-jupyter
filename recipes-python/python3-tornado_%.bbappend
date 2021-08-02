@@ -1,2 +1,2 @@
 BBCLASSEXTEND = "native"
-RDEPENDS_${PN}_class-native = ""
+RDEPENDS:${PN}:class-native = ""

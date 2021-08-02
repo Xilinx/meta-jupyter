@@ -12,12 +12,12 @@ inherit pypi setuptools3
 
 SRC_URI[sha256sum] = "5c55bdd098159f3e57faad102fa91de5b3f2f46ca8be01ad3d289e85a5beba9c"
 
-do_install_append() {
+do_install:append() {
 	# this files will be installed by python3-notebook
 	rm -f ${D}${bindir}/jupyter-bundlerextension
 }
 
-RDEPENDS_${PN} += " \
+RDEPENDS:${PN} += " \
 	python3-jinja2 \
 	python3-tornado \
 	python3-pyzmq \

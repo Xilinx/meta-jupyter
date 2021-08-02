@@ -2,7 +2,7 @@ DESCRIPTION = "Python packages to build jupyter notebook"
 
 inherit packagegroup
 
-RDEPENDS_${PN} = "  \
+RDEPENDS:${PN} = "  \
 	python3-jupyterlab \
 	python3-jupyterlab_widgets \
 	python3-matplotlib \

@@ -2,7 +2,7 @@ inherit pypi setuptools3
 
 LIC_FILES_CHKSUM = "file://COPYING.rst;md5=59b20262b8663cdd094005bddf47af5f"
 
-RDEPENDS_${PN} += " \
+RDEPENDS:${PN} += " \
 	${PYTHON_PN}-asyncio \
         ${PYTHON_PN}-prompt-toolkit (>=2.0.0) \
 	"
@@ -14,7 +14,7 @@ SUMMARY = "IPython: Productive Interactive Computing"
 LICENSE = "BSD"
 
 PYPI_PACKAGE_EXT = "tar.gz"
-RDEPENDS_${PN} += " \
+RDEPENDS:${PN} += " \
         ${PYTHON_PN}-debugger \
         ${PYTHON_PN}-typing \
         ${PYTHON_PN}-pexpect \

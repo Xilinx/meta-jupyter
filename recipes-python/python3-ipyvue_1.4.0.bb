@@ -6,6 +6,6 @@ SRC_URI[sha256sum] = "3253727e8e12e3c157550e3e8d6986edf61ad0d68299992fbf3fa6acec
 
 inherit pypi setuptools3
 
-RDEPENDS_${PN} += "python3-ipywidgets"
+RDEPENDS:${PN} += "python3-ipywidgets"
 
-FILES_${PN} += "${datadir}/*"
+FILES:${PN} += "${datadir}/*"

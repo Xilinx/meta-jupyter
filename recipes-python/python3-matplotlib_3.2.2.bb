@@ -23,7 +23,7 @@ SRC_URI[sha256sum] = "3d77a6630d093d74cbbfebaa0571d00790966be1ed204e4a8239f5cbd6
 
 inherit pypi setuptools3 pkgconfig
 
-RDEPENDS_${PN} = "\
+RDEPENDS:${PN} = "\
     freetype \
     libpng \
     python3-numpy \

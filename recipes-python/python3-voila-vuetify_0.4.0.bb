@@ -6,9 +6,9 @@ SRC_URI[sha256sum] = "2378c8e207df7f4de67385bf3fb489c1a45a347271fec21c813393c004
 
 inherit pypi setuptools3
 
-RDEPENDS_${PN} += " \
+RDEPENDS:${PN} += " \
 	python3-ipyvuetify \
 	python3-voila \
 	"
 
-FILES_${PN} += "${datadir}/*"
+FILES:${PN} += "${datadir}/*"

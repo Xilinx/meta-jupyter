@@ -6,6 +6,6 @@ SRC_URI[sha256sum] = "5c311308d3ec9c92e48ab6ca021b5b51295e9e39de640f69827e30d5f0
 
 inherit pypi setuptools3
 
-RDEPENDS_${PN} += "python3-ipyvue"
+RDEPENDS:${PN} += "python3-ipyvue"
 
-FILES_${PN} += "${datadir}/*"
+FILES:${PN} += "${datadir}/*"

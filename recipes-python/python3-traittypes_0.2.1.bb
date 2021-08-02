@@ -8,4 +8,4 @@ inherit pypi setuptools3
 
 SRC_URI[sha256sum] = "be6fa26294733e7489822ded4ae25da5b4824a8a7a0e0c2dccfde596e3489bd6"
 
-RDEPENDS_${PN} += "python3-traitlets"
+RDEPENDS:${PN} += "python3-traitlets"

@@ -9,7 +9,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=ebb06e9df8f57522b72d0edb0fcf83d4"
 
 PYPI_PACKAGE = "sympy"
 
-RDEPENDS_${PN} += " \
+RDEPENDS:${PN} += " \
         ${PYTHON_PN}-mpmath \
         "
 

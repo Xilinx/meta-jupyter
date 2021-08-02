@@ -8,9 +8,9 @@ inherit pypi setuptools3
 
 SRC_URI[sha256sum] = "257f530ffd73754bd008454826905657b329053364597479bb9774437a396837"
 
-RDEPENDS_${PN} += " \
+RDEPENDS:${PN} += " \
 	python3-retrying \
 	python3-six \
 	"
 
-FILES_${PN} += "${datadir}/*"
+FILES:${PN} += "${datadir}/*"

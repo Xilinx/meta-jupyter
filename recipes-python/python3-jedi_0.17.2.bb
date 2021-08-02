@@ -9,7 +9,7 @@ LIC_FILES_CHKSUM = "file://PKG-INFO;beginline=10;endline=10;md5=8227180126797a01
 
 BBCLASSEXTEND = "native"
 
-RDEPENDS_${PN} += " \
+RDEPENDS:${PN} += " \
         ${PYTHON_PN}-parso \
         ${PYTHON_PN}-logging \
         ${PYTHON_PN}-pkgutil \

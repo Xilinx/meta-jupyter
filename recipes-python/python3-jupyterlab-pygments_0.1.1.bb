@@ -8,4 +8,4 @@ inherit pypi setuptools3
 
 SRC_URI[sha256sum] = "19a0ccde7daddec638363cd3d60b63a4f6544c9181d65253317b2fb492a797b9"
 
-RDEPENDS_${PN} += "python3-pygments"
+RDEPENDS:${PN} += "python3-pygments"

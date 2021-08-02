@@ -6,7 +6,7 @@ SRC_URI[sha256sum] = "6ee4c63b3c27f96305fe6e023f22f6edf77eba1335167edfdf3a2a9c6d
 
 inherit pypi setuptools3
 
-RDEPENDS_${PN} += " \
+RDEPENDS:${PN} += " \
 	python3-async-generator \
 	python3-jupyter_server \
 	python3-nbconvert \
@@ -14,4 +14,4 @@ RDEPENDS_${PN} += " \
 	python3-pygments \
 	"
 
-FILES_${PN} += "${datadir}/*"
+FILES:${PN} += "${datadir}/*"

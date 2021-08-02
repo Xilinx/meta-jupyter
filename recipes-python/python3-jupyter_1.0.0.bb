@@ -18,7 +18,7 @@ DEPENDS += " \
         ${PYTHON_PN}-nbconvert \
         "
 
-RDEPENDS_${PN} += " \
+RDEPENDS:${PN} += " \
         ${PYTHON_PN}-ipykernel \
         ${PYTHON_PN}-jupyter-console \
         ${PYTHON_PN}-qtconsole \

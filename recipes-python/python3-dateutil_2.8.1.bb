@@ -10,7 +10,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=e3155c7bdc71f66e02678411d2abf996"
 BBCLASSEXTEND = "native"
 PYPI_PACKAGE = "python-dateutil"
 
-RDEPENDS_${PN} += "\
+RDEPENDS:${PN} += "\
         ${PYTHON_PN}-datetime \
         ${PYTHON_PN}-logging \
         ${PYTHON_PN}-json \

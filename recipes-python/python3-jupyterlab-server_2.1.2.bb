@@ -7,7 +7,7 @@ PN="python3-jupyterlab_server"
 
 inherit pypi setuptools3
 
-RDEPENDS_${PN} += " \
+RDEPENDS:${PN} += " \
         ${PYTHON_PN}-notebook \
         ${PYTHON_PN}-jsonschema \
         "
@@ -15,4 +15,4 @@ RDEPENDS_${PN} += " \
 SRC_URI[md5sum] = "0e244382fc2a5dec49e64d008c8d355f"
 SRC_URI[sha256sum] = "a71ebeb89eb2ab49eca41768f9840bb6896c264203ea755990313d4dfa610a74"
 
-RDEPENDS_${PN} += "${PYTHON_PN}-json5"
+RDEPENDS:${PN} += "${PYTHON_PN}-json5"

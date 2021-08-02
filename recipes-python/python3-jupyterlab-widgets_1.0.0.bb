@@ -16,4 +16,4 @@ SRC_URI="https://files.pythonhosted.org/packages/25/f8/b75cd85c63c2a9a6ea0ee248c
 SRC_URI[md5sum] = "e06d15a0b04bd0c9a24b57cfc7b27227"
 SRC_URI[sha256sum] = "5c1a29a84d3069208cb506b10609175b249b6486d6b1cbae8fcde2a11584fb78"
 
-FILES_${PN} += "/usr/share/jupyter/labextensions"
+FILES:${PN} += "/usr/share/jupyter/labextensions"

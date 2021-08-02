@@ -9,7 +9,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=d235895c780fa844e875697e16e5787b"
 # pandocfilters(OK), jinja2(-), entrypoints(-), traitlets(decorator, six, ipython-genutils), testpath(-)
 #
 
-RDEPENDS_${PN} += " \
+RDEPENDS:${PN} += " \
         ${PYTHON_PN}-traitlets \
         ${PYTHON_PN}-jupyter-core \
         ${PYTHON_PN}-pygments \

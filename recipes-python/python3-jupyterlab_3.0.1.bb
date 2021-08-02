@@ -8,7 +8,7 @@ DEPENDS+= " \
 	${PYTHON_PN}-jupyter_packaging-native \
 	"
 
-RDEPENDS_${PN} += " \
+RDEPENDS:${PN} += " \
         ${PYTHON_PN}-notebook \
         ${PYTHON_PN}-babel \
         ${PYTHON_PN}-jupyterlab_server \
@@ -17,7 +17,7 @@ RDEPENDS_${PN} += " \
         ${PYTHON_PN}-nbclassic \
         "
 
-do_install_append(){
+do_install:append(){
 
 	install -d ${D}/usr/share/jupyter/lab
 	cp -r ${S}/jupyterlab/schemas ${D}/usr/share/jupyter/lab/
@@ -25,7 +25,7 @@ do_install_append(){
 	cp -r ${B}/lib/jupyterlab/static ${D}/usr/share/jupyter/lab/
 }
 
-FILES_${PN}_append = " /usr/share/etc/jupyter/jupyter_notebook_config.d/jupyterlab.json /usr/share/jupyter/lab "
+FILES:${PN}:append = " /usr/share/etc/jupyter/jupyter_notebook_config.d/jupyterlab.json /usr/share/jupyter/lab "
 
 BBCLASSEXTEND = "native"
 SRC_URI[md5sum] = "dc92f26fc4a81bd384206f00d2a93965"
