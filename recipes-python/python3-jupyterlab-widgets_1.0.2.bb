@@ -12,8 +12,8 @@ DEPENDS+= " \
 	${PYTHON_PN}-jupyter_packaging-native \
 "
 
-SRC_URI="https://files.pythonhosted.org/packages/25/f8/b75cd85c63c2a9a6ea0ee248c7b2a6d46f942fcfcac0555cc53ed86ae320/jupyterlab_widgets-1.0.0.tar.gz"
-SRC_URI[md5sum] = "e06d15a0b04bd0c9a24b57cfc7b27227"
-SRC_URI[sha256sum] = "5c1a29a84d3069208cb506b10609175b249b6486d6b1cbae8fcde2a11584fb78"
+PYPI_SRC_URI="https://files.pythonhosted.org/packages/27/f1/0d3a09c0069467ed9636faf3a9b5b758378216bb891066a0bc24799681e3/jupyterlab_widgets-1.0.2.tar.gz"
+SRC_URI[md5sum] = "0549460f3717942451a3e51bb2f1afd9"
+SRC_URI[sha256sum] = "7885092b2b96bf189c3a705cc3c412a4472ec5e8382d0b47219a66cccae73cfa"
 
 FILES:${PN} += "/usr/share/jupyter/labextensions"
