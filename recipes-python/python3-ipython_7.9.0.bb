@@ -16,7 +16,6 @@ LICENSE = "BSD"
 PYPI_PACKAGE_EXT = "tar.gz"
 RDEPENDS:${PN} += " \
         ${PYTHON_PN}-debugger \
-        ${PYTHON_PN}-typing \
         ${PYTHON_PN}-pexpect \
         ${PYTHON_PN}-jedi (>= 0.10) \
         ${PYTHON_PN}-decorator \
