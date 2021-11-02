@@ -18,4 +18,5 @@ RDEPENDS:${PN} = "  \
 	python3-anyio \
 	python3-sniffio \
 	python3-nbclassic \
+	python3-bokeh \
 	"
