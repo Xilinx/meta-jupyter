@@ -6,7 +6,7 @@ inherit pypi setuptools3
 
 SRC_URI[sha256sum] = "fcc0d0a3129ae457cdb0a4f503843a4d13d1f5d07af7748424ea8c7ddfc321f1"
 
-RDEPENDS_${PN} += " \
+RDEPENDS:${PN} += " \
 	python3-pyyaml \
 	python3-dateutil \
 	python3-jinja2 \
