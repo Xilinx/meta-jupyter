@@ -1,8 +1,8 @@
 SUMMARY = "Rendering of live jupyter notebooks with interactive widgets"
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=ae6230e5f517c55a7e8c431c0d488ed0"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=8d47d42e4b7cca4a8d57b4547ec667a4"
 
-SRC_URI[sha256sum] = "6ee4c63b3c27f96305fe6e023f22f6edf77eba1335167edfdf3a2a9c6d2459ab"
+SRC_URI[sha256sum] = "97ae429ca4b16a7a3fcf553d795b052ebe92d5db2113553a00b13e68eb4b7528"
 
 inherit pypi setuptools3
 
