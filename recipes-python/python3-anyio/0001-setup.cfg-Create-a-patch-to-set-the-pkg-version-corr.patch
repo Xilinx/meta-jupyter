@@ -15,7 +15,7 @@ index e681202..374a8d6 100644
 @@ -1,5 +1,6 @@
  [metadata]
  name = anyio
-+version = 2.0.2
++version = 3.4.0
  description = High level compatibility layer for multiple asynchronous event loop implementations
  long_description = file: README.rst
  author = Alex Grönholm
