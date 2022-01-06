@@ -9,5 +9,4 @@ RDEPENDS:${PN} += " \
         ${PYTHON_PN}-tornado \
         "
 
-SRC_URI[md5sum] = "910a09be2a9d46ddbf33747d1b1dd3d8"
-SRC_URI[sha256sum] = "4804a774f802306a7d9af7322193c5390f1da0abb429e082a10ef1d46e6fb2c2"
+SRC_URI[sha256sum] = "b20fd93cc57c1678c799799d117874367cc07a3d2d55be95205b1a88fa08393f"
