@@ -7,8 +7,11 @@ PYPI_PACKAGE = "bqplot"
 
 inherit pypi setuptools3
 
-SRC_URI[sha256sum] = "7205e53016f6991f64ae4423164c3e084e24b6e9d1f977bb2135ce9c7a017e4b"
+SRC_URI[sha256sum] = "cd880a84bd495ee5bf0687b496ddbc8049d2a9feff056f9343213e83e71737f7"
 
+DEPENDS += " \
+	python3-jupyter_packaging-native \
+"
 RDEPENDS:${PN} += " \
 	python3-ipywidgets \
 	python3-traitlets \
