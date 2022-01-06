@@ -1,4 +1,4 @@
-inherit pypi setuptools3
+inherit pypi setuptools3 mime-xdg
 
 SUMMARY = "Jupyter notebook"
 LICENSE = "BSD"
@@ -29,5 +29,5 @@ do_install:append() {
         done
 }
 
-SRC_URI[md5sum] = "9714add6d588c5327c4f5029d7c94f7b"
-SRC_URI[sha256sum] = "47a9092975c9e7965ada00b9a20f0cf637d001db60d241d479f53c0be117ad48"
+SRC_URI[sha256sum] = "7bcdf79bd1cda534735bd9830d2cbedab4ee34d8fe1df6e7b946b3aab0902ba3"
+FILES:${PN}+= "/usr/share/icons"
