@@ -4,7 +4,7 @@ LIC_FILES_CHKSUM = "file://LICENSE.txt;md5=8ada4b0ebe4fbabce1547c58b10b7019"
 
 inherit pypi setuptools3
 
-SRC_URI[sha256sum] = "fcc0d0a3129ae457cdb0a4f503843a4d13d1f5d07af7748424ea8c7ddfc321f1"
+SRC_URI[sha256sum] = "f0a4b53364ed3b7eb936c5cb1a4f4132369e394c7ae0a8ef420459410958033d"
 
 RDEPENDS:${PN} += " \
 	python3-pyyaml \
