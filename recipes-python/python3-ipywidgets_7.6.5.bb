@@ -1,7 +1,6 @@
 inherit pypi setuptools3
 
-SRC_URI[md5sum] = "090f5ad1294b084f075af8f684d8981f"
-SRC_URI[sha256sum] = "e945f6e02854a74994c596d9db83444a1850c01648f1574adf144fbbabe05c97"
+SRC_URI[sha256sum] = "00974f7cb4d5f8d494c19810fedb9fa9b64bffd3cda7c2be23c133a1ad3c99c5"
 
 SUMMARY = "IPython HTML widgets for Jupyter"
 LICENSE = "BSD"
