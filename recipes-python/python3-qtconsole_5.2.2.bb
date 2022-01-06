@@ -12,5 +12,4 @@ RDEPENDS:${PN} += " \
         ${PYTHON_PN}-pygments \
         "
 
-SRC_URI[md5sum] = "34cc7020d1ceeedd546c1a088f1cc805"
-SRC_URI[sha256sum] = "f5cb275d30fc8085e2d1d18bc363e5ba0ce6e559bf37d7d6727b773134298754"
+SRC_URI[sha256sum] = "8f9db97b27782184efd0a0f2d57ea3bd852d053747a2e442a9011329c082976d"
