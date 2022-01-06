@@ -25,5 +25,5 @@ RDEPENDS:${PN} += " \
         ${PYTHON_PN}-defusedxml \
         "
 
-SRC_URI[md5sum] = "cc766e4f109f97651c005e7fee524c98"
-SRC_URI[sha256sum] = "21fb48e700b43e82ba0e3142421a659d7739b65568cc832a13976a77be16b523"
+SRC_URI[sha256sum] = "5412ec774c6db4fccecb8c4ba07ec5d37d6dcf5762593cb3d6ecbbeb562ebbe5"
+FILES:${PN} += "/usr/share/jupyter/"
