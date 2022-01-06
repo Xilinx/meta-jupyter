@@ -2,7 +2,7 @@ inherit pypi setuptools3
 
 SUMMARY = "The JupyterLab notebook server extension"
 LICENSE = "MIT"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=6f15a0f6069821527d1d4552e17acdf1"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=8bcc6c9ef50f2097920808c2bc5bffd2"
 
 DEPENDS+= " \
 	${PYTHON_PN}-jupyter_packaging-native \
@@ -28,5 +28,4 @@ do_install:append(){
 FILES:${PN}:append = " /usr/share/etc/jupyter/jupyter_notebook_config.d/jupyterlab.json /usr/share/jupyter/lab "
 
 BBCLASSEXTEND = "native"
-SRC_URI[md5sum] = "dc92f26fc4a81bd384206f00d2a93965"
-SRC_URI[sha256sum] = "72759e43d6063d4b3bf5bc4fa5ef72dd970bc43bdcb82d87affee73bbdb5be34"
+SRC_URI[sha256sum] = "31b28f473b0f5826d2020583973c385526f0559b5b26efac6b8035ac1562874a"
