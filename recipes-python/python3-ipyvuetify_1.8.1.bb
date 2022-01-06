@@ -2,7 +2,7 @@ SUMMARY = "Jupyter widgets based on vuetify UI components"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=bfa60affe90b77609b1b4f2143e5c766"
 
-SRC_URI[sha256sum] = "5c311308d3ec9c92e48ab6ca021b5b51295e9e39de640f69827e30d5f03a244b"
+SRC_URI[sha256sum] = "2d17367ce7da45a2622107d55c8b4c5475aace99ed5d95e5d7d3f93aa4c0c566"
 
 inherit pypi setuptools3
 
