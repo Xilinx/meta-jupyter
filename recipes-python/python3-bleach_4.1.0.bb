@@ -15,3 +15,4 @@ RDEPENDS:${PN} += " \
         bash \
         "
 
+BBCLASSEXTEND = "native"

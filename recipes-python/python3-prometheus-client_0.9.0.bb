@@ -12,3 +12,4 @@ PYPI_PACKAGE = "prometheus_client"
 
 SRC_URI[md5sum] = "39c80f69a307e7d69917664e1e3046af"
 SRC_URI[sha256sum] = "9da7b32f02439d8c04f7777021c304ed51d9ec180604700c1ba72a4d44dceb03"
+BBCLASSEXTEND = "native"

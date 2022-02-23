@@ -13,3 +13,4 @@ DEPENDS += " \
 	python3-wheel-native \
 	python3-pip-native \
 "
+BBCLASSEXTEND = "native"

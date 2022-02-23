@@ -8,3 +8,4 @@ PYPI_PACKAGE = "testpath"
 
 SRC_URI[sha256sum] = "1acf7a0bcd3004ae8357409fc33751e16d37ccc650921da1094a86581ad1e417"
 
+BBCLASSEXTEND = "native"

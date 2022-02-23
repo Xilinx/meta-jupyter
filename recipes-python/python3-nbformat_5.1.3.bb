@@ -12,3 +12,4 @@ RDEPENDS:${PN} += " \
         ${PYTHON_PN}-ipython-genutils \
         ${PYTHON_PN}-jupyter-core \
         "
+BBCLASSEXTEND = "native"

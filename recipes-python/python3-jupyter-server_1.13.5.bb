@@ -17,6 +17,8 @@ do_install:append() {
 	rm -f ${D}${bindir}/jupyter-bundlerextension
 }
 
+BBCLASSEXTEND = "native"
+
 RDEPENDS:${PN} += " \
 	python3-jinja2 \
 	python3-tornado \

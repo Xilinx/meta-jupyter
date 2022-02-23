@@ -27,3 +27,5 @@ RDEPENDS:${PN} += " \
 
 SRC_URI[sha256sum] = "5412ec774c6db4fccecb8c4ba07ec5d37d6dcf5762593cb3d6ecbbeb562ebbe5"
 FILES:${PN} += "/usr/share/jupyter/"
+
+BBCLASSEXTEND = "native"
