@@ -6,6 +6,6 @@ PYPI_PACKAGE = "jupyterlab_pygments"
 
 inherit pypi setuptools3
 
-SRC_URI[sha256sum] = "19a0ccde7daddec638363cd3d60b63a4f6544c9181d65253317b2fb492a797b9"
+SRC_URI[sha256sum] = "cfcda0873626150932f438eccf0f8bf22bfa92345b814890ab360d666b254146"
 
 RDEPENDS:${PN} += "python3-pygments"
