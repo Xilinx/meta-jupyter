@@ -3,14 +3,14 @@ SUMMARY = "The Jupyter Server is a web application that allows you to create \
            visualizations, and explanatory text. The Notebook has support for \
            multiple programming languages, sharing, and interactive widgets."
 LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://COPYING.md;md5=d235895c780fa844e875697e16e5787b"
+LIC_FILES_CHKSUM = "file://COPYING.md;md5=0d99f15eb14ae0f6bd895f65127d0fa8"
 
 PYPI_PACKAGE = "jupyter_server"
 PN="python3-jupyter_server"
 
 inherit pypi setuptools3
 
-SRC_URI[sha256sum] = "5c55bdd098159f3e57faad102fa91de5b3f2f46ca8be01ad3d289e85a5beba9c"
+SRC_URI[sha256sum] = "9e3e9717eea3bffab8cfb2ff330011be6c8bbd9cdae5b71cef169fcece2f19d3"
 
 do_install:append() {
 	# this files will be installed by python3-notebook
