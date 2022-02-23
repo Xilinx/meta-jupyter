@@ -24,4 +24,5 @@ RDEPENDS:${PN} = "  \
 	python3-nest-asyncio \
 	python3-websocket-client \
 	python3-jupyterlab-pygments \
+	python3-matplotlib-inline \
 	"
