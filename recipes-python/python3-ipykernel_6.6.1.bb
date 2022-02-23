@@ -32,6 +32,7 @@ RDEPENDS:${PN} += " \
         ${PYTHON_PN}-tornado \
         ${PYTHON_PN}-jupyter-client \
         ${PYTHON_PN}-simplegeneric \
+        ${PYTHON_PN}-matplotlib-inline \
         "
 
 FILES:${PN} += "/usr/share/jupyter"
