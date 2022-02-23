@@ -19,4 +19,9 @@ RDEPENDS:${PN} = "  \
 	python3-sniffio \
 	python3-nbclassic \
 	python3-bokeh \
+	python3-nbclient \
+	python3-charset-normalizer \
+	python3-nest-asyncio \
+	python3-websocket-client \
+	python3-jupyterlab-pygments \
 	"
