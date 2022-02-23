@@ -20,6 +20,7 @@ RDEPENDS:${PN} += " \
         ${PYTHON_PN}-send2trash \
         ${PYTHON_PN}-pyzmq \
         ${PYTHON_PN}-sqlite3 \
+        ${PYTHON_PN}-argon2-cffi \
         "
 
 do_install:append() {
