@@ -1,6 +1,6 @@
 SUMMARY = "Low-level Python CFFI Bindings for Argon2"
 LICENSE = "Apache-2.0"
-LIC_FILES_CHKSUM = "file:///${S}/argon2_cffi_bindings-21.2.0.dist-info/LICENSE;md5=4642dfcbd13c1cc49e9f99df9de51ba1"
+LIC_FILES_CHKSUM = "file://argon2_cffi_bindings-21.2.0.dist-info/LICENSE;md5=4642dfcbd13c1cc49e9f99df9de51ba1"
 
 SRC_URI:x86_64 = "https://files.pythonhosted.org/packages/2e/f1/48888db30b6a4a0c78ab7bc7444058a1135b223b6a2a5f2ac7d6780e7443/argon2_cffi_bindings-21.2.0-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl;downloadfilename=argon2_cffi_bindings-21.2.0-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.zip;subdir=${BP};name=argon2_cffi_bindings_x86"
 

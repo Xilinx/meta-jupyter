@@ -1,6 +1,6 @@
 SUMMARY = "Secure ARgon2 password hashing algorithm"
 LICENSE = "Apache-2.0"
-LIC_FILES_CHKSUM = "file:///${S}/argon2_cffi-21.3.0.dist-info/LICENSE;md5=d4ab25949a73fe7d4fdee93bcbdbf8ff"
+LIC_FILES_CHKSUM = "file://argon2_cffi-21.3.0.dist-info/LICENSE;md5=d4ab25949a73fe7d4fdee93bcbdbf8ff"
 
 SRC_URI = "https://files.pythonhosted.org/packages/a8/07/946d5a9431bae05a776a59746ec385fbb79b526738d25e4202d3e0bbf7f4/argon2_cffi-21.3.0-py3-none-any.whl;downloadfilename=argon2_cffi-21.3.0-py3-none-any.zip;subdir=${BP}"
 
