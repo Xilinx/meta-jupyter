@@ -25,4 +25,6 @@ RDEPENDS:${PN} = "  \
 	python3-websocket-client \
 	python3-jupyterlab-pygments \
 	python3-matplotlib-inline \
+	python3-argon2-cffi \
+	python3-argon2-cffi-bindings \
 	"
