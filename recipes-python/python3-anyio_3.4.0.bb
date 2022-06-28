@@ -10,6 +10,7 @@ SRC_URI:append = " \
 "
 
 DEPENDS += " \
+	python3-setuptools-scm-native \
 	python3-wheel-native \
 	python3-pip-native \
 "
