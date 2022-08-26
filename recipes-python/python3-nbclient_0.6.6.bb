@@ -1,6 +1,6 @@
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta
 SUMMARY = "Client library to execute notebooks"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=438c1b61bd5f6170c2203d10749c99d2"
 
-SRC_URI[sha256sum] = "751516992f34b58172bad54eef1e4bf7e4f4460d58e255ca1a4e5c9649476007"
+SRC_URI[sha256sum] = "0df76a7961d99a681b4796c74a1f2553b9f998851acc01896dce064ad19a9027"
