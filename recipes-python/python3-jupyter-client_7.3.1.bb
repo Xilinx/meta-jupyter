@@ -1,11 +1,10 @@
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta
 
-SRC_URI[md5sum] = "ca545481d8a875b5eb66ff48625395ef"
-SRC_URI[sha256sum] = "b360f8d4638bc577a4656e93f86298db755f915098dc763f6fc05da0c5d7a595"
+SRC_URI[sha256sum] = "05d4ff6a0ade25138c6bb0fbeac7ddc26b5fe835e7dd816b64b4a45b931bdc0b"
 
 SUMMARY = "Jupyter protocol implementation and client libraries"
-LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://COPYING.md;md5=d235895c780fa844e875697e16e5787b"
+LICENSE = "BSD-3-Clause"
+LIC_FILES_CHKSUM = "file://COPYING.md;md5=0d99f15eb14ae0f6bd895f65127d0fa8"
 
 RDEPENDS:${PN} += " \
         ${PYTHON_PN}-pyzmq \
