@@ -1,1 +1,1 @@
-inherit setuptools3
+inherit python_setuptools_build_meta

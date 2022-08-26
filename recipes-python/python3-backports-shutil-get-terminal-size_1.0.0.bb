@@ -1,4 +1,4 @@
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta
 
 SUMMARY = "A backport of the get_terminal_size function from Python 3.3's shutil."
 LICENSE = "MIT"

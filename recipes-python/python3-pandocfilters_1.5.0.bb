@@ -1,7 +1,7 @@
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta
 
 SUMMARY = "Discover and load entry points from installed packages"
-LICENSE = "BSD"
+LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=28b59ac864caa776edcbdb77a8a57267"
 
 PYPI_PACKAGE = "pandocfilters"

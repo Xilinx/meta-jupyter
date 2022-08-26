@@ -1,4 +1,4 @@
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta
 
 SUMMARY = "scandir, a better directory iterator and faster os.walk()"
 LICENSE = "BSD"
