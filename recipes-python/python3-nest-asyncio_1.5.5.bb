@@ -1,4 +1,4 @@
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta
 SUMMARY = "This module patches asyncio to allow nested use of asyncio.run and loop.run_until_complete"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://${WORKDIR}/nest_asyncio-1.5.4/LICENSE;md5=767eeb0122cccaf224035860df064532"
