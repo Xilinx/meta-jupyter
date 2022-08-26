@@ -1,0 +1,22 @@
+From 00b802bd134299556284495c3d75a477286aeb2b Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Thies=20M=C3=B6ller?= <thies.moeller@gmail.com>
+Date: Thu, 18 Aug 2022 14:23:54 +0200
+Subject: [PATCH] Modify hatch_build to use 'python3' as default interpreter
+
+---
+ hatch_build.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/hatch_build.py b/hatch_build.py
+index deb21ff..a2b6172 100644
+--- a/hatch_build.py
++++ b/hatch_build.py
+@@ -16,7 +16,7 @@ class CustomHook(BuildHookInterface):
+         # When building a standard wheel, the executable specified in the kernelspec is simply 'python'.
+         if version == "standard":
+             overrides["metadata"] = dict(debugger=True)
+-            argv = make_ipkernel_cmd(executable="python")
++            argv = make_ipkernel_cmd(executable="python3")
+ 
+         # When installing an editable wheel, the full `sys.executable` can be used.
+         else:

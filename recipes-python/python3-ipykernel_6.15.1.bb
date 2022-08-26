@@ -1,12 +1,12 @@
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta
 
 DEPENDS += " \
 	${PYTHON_PN}-prompt-toolkit-native \
 	"
 
 SUMMARY = "Jupyter notebook"
-LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://PKG-INFO;beginline=8;endline=8;md5=e910b35b0ef4e1f665b9a75d6afb7709"
+LICENSE = "BSD-3-Clause"
+LIC_FILES_CHKSUM = "file://PKG-INFO;beginline=9;endline=65;md5=6c019aca026ed989ebaefe22827424f8"
 
 DEPENDS += " \
         ${PYTHON_PN}-ipython-native \
@@ -24,6 +24,10 @@ DEPENDS += " \
         ${PYTHON_PN}-pyzmq-native \
         ${PYTHON_PN}-jupyter-core-native \
         ${PYTHON_PN}-simplegeneric-native \
+        ${PYTHON_PN}-stack-data-native \
+        ${PYTHON_PN}-executing-native \
+        ${PYTHON_PN}-asttokens-native \
+        ${PYTHON_PN}-pure-eval-native \
         "
 
 RDEPENDS:${PN} += " \
@@ -38,9 +42,7 @@ RDEPENDS:${PN} += " \
 
 FILES:${PN} += "/usr/share/jupyter"
 
-SRC_URI[sha256sum] = "91ff0058b45660aad4a68088041059c0d378cd53fc8aff60e5abc91bcc049353"
+SRC_URI += "file://0001-Modify-hatch_build-to-use-python3-as-default-interpr.patch"
+SRC_URI[sha256sum] = "37acc3254caa8a0dafcddddc8dc863a60ad1b46487b68aee361d9a15bda98112"
 
-SRC_URI:append = " \
-	file://0001-Modify-setup.py-to-set-exectuable-python3-when-build.patch \
-"
 
