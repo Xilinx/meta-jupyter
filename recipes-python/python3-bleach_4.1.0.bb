@@ -1,4 +1,4 @@
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta
 
 SUMMARY = "An easy safelist-based HTML-sanitizing tool."
 LICENSE = "Apache-2.0"

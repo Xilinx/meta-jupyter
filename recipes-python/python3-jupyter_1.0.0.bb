@@ -1,4 +1,4 @@
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta
 
 SUMMARY = "Jupyter notebook"
 LICENSE = "BSD"

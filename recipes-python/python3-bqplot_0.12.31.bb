@@ -5,19 +5,19 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=822b4ff4dd277d70fc2b796617ae1bf7"
 
 PYPI_PACKAGE = "bqplot"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta
 
 SRC_URI[sha256sum] = "cd880a84bd495ee5bf0687b496ddbc8049d2a9feff056f9343213e83e71737f7"
 
 DEPENDS += " \
-	python3-jupyter_packaging-native \
+	${PYTHON_PN}-jupyter_packaging-native \
 "
 RDEPENDS:${PN} += " \
-	python3-ipywidgets \
-	python3-traitlets \
-	python3-traittypes \
-	python3-numpy \
-	python3-pandas \
+	${PYTHON_PN}-ipywidgets \
+	${PYTHON_PN}-traitlets \
+	${PYTHON_PN}-traittypes \
+	${PYTHON_PN}-numpy \
+	${PYTHON_PN}-pandas \
 	"
 
 do_install:append() {

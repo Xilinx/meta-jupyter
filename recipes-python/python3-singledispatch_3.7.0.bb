@@ -1,4 +1,4 @@
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta
 
 SUMMARY = "functools.singledispatch from Python 3.4"
 DESCRIPTION = "PEP 443 proposed to expose a mechanism in the functools standard library module \

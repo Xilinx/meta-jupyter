@@ -1,4 +1,4 @@
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta
 
 SUMMARY = "Python client for the Prometheus monitoring system"
 LICENSE = "Apache-2.0"

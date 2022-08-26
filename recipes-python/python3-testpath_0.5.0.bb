@@ -1,4 +1,4 @@
-inherit pypi setuptools3
+inherit pypi python_flit_core
 
 SUMMARY = "Test utilities for code working with files and commands"
 LICENSE = "MIT"

@@ -8,6 +8,6 @@ LIC_FILES_CHKSUM = " \
 
 PYPI_PACKAGE = "async_generator"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta
 
 SRC_URI[sha256sum] = "6ebb3d106c12920aaae42ccb6f787ef5eefdcdd166ea3d628fa8476abe712144"
