@@ -8,7 +8,7 @@ SRC_URI[sha256sum] = "44ba5ca6acb80c5d5a500f1e5b83ede8cbe364d5a495c4c8cf60aaf1ba
 
 RDEPENDS:${PN} += " \
         ${PYTHON_PN}-traitlets \
-        ${PYTHON_PN}-jsonschema \
+        ${PYTHON_PN}-fastjsonschema \
         ${PYTHON_PN}-ipython-genutils \
         ${PYTHON_PN}-jupyter-core \
         "
