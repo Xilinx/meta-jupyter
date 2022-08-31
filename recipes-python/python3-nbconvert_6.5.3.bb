@@ -22,6 +22,9 @@ RDEPENDS:${PN} += " \
         ${PYTHON_PN}-testpath \
         ${PYTHON_PN}-nbformat \
         ${PYTHON_PN}-defusedxml \
+	${PYTHON_PN}-lxml \
+	${PYTHON_PN}-beautifulsoup4 \
+	${PYTHON_PN}-soupsieve \
         "
 
 SRC_URI[sha256sum] = "10ed693c4cfd3c63583c87ca5c3a2f6ed874145103595f3824efcc8dfcb7522c"
