@@ -1,6 +1,6 @@
 # meta-jupyter
 
-This layer collects recipes required to build and run jupyter notebook on yocto
+This layer provides the collection of recipes required to build and run jupyter notebook apps.
 
 ## Maintainers, Patches/Submissions, Community
 
@@ -21,18 +21,19 @@ When creating patches, please use below format.
 
 **Maintainers:**
 
-	Mark Hatle <mark.hatle@xilinx.com>
-	Sandeep Gundlupet Raju <sandeep.gundlupet-raju@xilinx.com>
-	John Toomey <john.toomey@xilinx.com>
-
+	Mark Hatle <mark.hatle@amd.com>
+	Sandeep Gundlupet Raju <sandeep.gundlupet-raju@amd.com>
+	John Toomey <john.toomey@amd.com>
 
 ## Dependencies
 
+This layer depends on:
 
-	URI: git://git.openembedded.org/bitbake
+	URI: https://git.openembedded.org/bitbake
 
-	URI: git://git.openembedded.org/openembedded-core
+	URI: https://git.openembedded.org/openembedded-core
+	layers: meta, meta-poky
 
-	URI: git://git.openembedded.org/meta-openembedded
-	layers: meta
+	URI: https://git.openembedded.org/meta-python2
 	branch: master or xilinx current release version (e.g. hosister)
+
