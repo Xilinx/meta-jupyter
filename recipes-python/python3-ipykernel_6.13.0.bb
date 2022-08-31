@@ -6,7 +6,7 @@ DEPENDS += " \
 
 SUMMARY = "Jupyter notebook"
 LICENSE = "BSD-3-Clause"
-LIC_FILES_CHKSUM = "file://PKG-INFO;beginline=9;endline=65;md5=6c019aca026ed989ebaefe22827424f8"
+LIC_FILES_CHKSUM = "file://COPYING.md;beginline=1;endline=34;md5=f0a133522b9d35a1ecee12860db8e986"
 
 DEPENDS += " \
         ${PYTHON_PN}-ipython-native \
@@ -28,6 +28,7 @@ DEPENDS += " \
         ${PYTHON_PN}-executing-native \
         ${PYTHON_PN}-asttokens-native \
         ${PYTHON_PN}-pure-eval-native \
+	${PYTHON_PN}-entrypoints-native \
         "
 
 RDEPENDS:${PN} += " \
@@ -42,7 +43,7 @@ RDEPENDS:${PN} += " \
 
 FILES:${PN} += "/usr/share/jupyter"
 
-SRC_URI += "file://0001-Modify-hatch_build-to-use-python3-as-default-interpr.patch"
-SRC_URI[sha256sum] = "37acc3254caa8a0dafcddddc8dc863a60ad1b46487b68aee361d9a15bda98112"
+#SRC_URI += "file://0001-Modify-hatch_build-to-use-python3-as-default-interpr.patch"
+SRC_URI[sha256sum] = "0e28273e290858393e86e152b104e5506a79c13d25b951ac6eca220051b4be60"
 
 
