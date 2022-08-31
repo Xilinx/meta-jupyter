@@ -14,6 +14,7 @@ RDEPENDS:${PN} = "  \
 	${PYTHON_PN}-ipywidgets \
 	${PYTHON_PN}-requests \
 	${PYTHON_PN}-jupyter-server \
+	${PYTHON_PN}-notebook-shim \
 	${PYTHON_PN}-jupyterlab-server \
 	${PYTHON_PN}-anyio \
 	${PYTHON_PN}-sniffio \
