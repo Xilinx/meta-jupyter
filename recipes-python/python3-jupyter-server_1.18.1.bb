@@ -5,19 +5,18 @@ SUMMARY = "The Jupyter Server is a web application that allows you to create \
 LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://COPYING.md;md5=0d99f15eb14ae0f6bd895f65127d0fa8"
 
-PYPI_PACKAGE = "jupyter_server"
-PN="${PYTHON_PN}-jupyter-server"
-
-inherit pypi python_setuptools_build_meta
-
 SRC_URI[sha256sum] = "2b72fc595bccae292260aad8157a0ead8da2c703ec6ae1bb7b36dbad0e267ea7"
+SRC_URI:append = " \
+	file://0001-pyproject.toml-Allow-jupyter-packaging-to-be-greater.patch \
+"
+PYPI_PACKAGE = "jupyter_server"
+
+inherit pypi setuptools3
 
 do_install:append() {
 	# this files will be installed by ${PYTHON_PN}-notebook
 	rm -f ${D}${bindir}/jupyter-bundlerextension
 }
-
-BBCLASSEXTEND = "native"
 
 RDEPENDS:${PN} += " \
 	${PYTHON_PN}-jinja2 \
@@ -32,4 +31,7 @@ RDEPENDS:${PN} += " \
 	${PYTHON_PN}-send2trash \
 	${PYTHON_PN}-terminado \
 	${PYTHON_PN}-prometheus-client \
+	${PYTHON_PN}-pre-commit \
 	"
+
+BBCLASSEXTEND = "native"

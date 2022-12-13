@@ -1,0 +1,25 @@
+From 05ed50d357eafe4f19ab4369d986f074c17e7330 Mon Sep 17 00:00:00 2001
+From: Sandeep Gundlupet Raju <sandeep.gundlupet-raju@amd.com>
+Date: Mon, 7 Nov 2022 15:30:29 -0700
+Subject: [PATCH] pyproject.toml: Allow jupyter packaging to be greater than
+ 0.9
+
+Signed-off-by: Sandeep Gundlupet Raju <sandeep.gundlupet-raju@amd.com>
+---
+ pyproject.toml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/pyproject.toml b/pyproject.toml
+index c66a9a0bd..15a9d0f84 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -1,5 +1,5 @@
+ [build-system]
+-requires = ["jupyter_packaging~=0.9", "pre-commit"]
++requires = ["jupyter_packaging~=0.9,<2", "pre-commit"]
+ build-backend = "jupyter_packaging.build_api"
+ 
+ [tool.jupyter-packaging.builder]
+-- 
+2.17.1
+
