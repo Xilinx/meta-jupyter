@@ -1,0 +1,26 @@
+From a797c9673fd2a89cd717b0af5c7b0a8debdbf5cb Mon Sep 17 00:00:00 2001
+From: Sandeep Gundlupet Raju <sandeep.gundlupet-raju@amd.com>
+Date: Thu, 8 Dec 2022 15:37:16 -0700
+Subject: [PATCH] setup.py: Use python3 executable as default interpreter
+
+Signed-off-by: Sandeep Gundlupet Raju <sandeep.gundlupet-raju@amd.com>
+---
+ setup.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/setup.py b/setup.py
+index 9bb5e05..8310ec6 100644
+--- a/setup.py
++++ b/setup.py
+@@ -111,7 +111,7 @@ if any(a.startswith(("bdist", "install")) for a in sys.argv):
+ 
+     # When building a wheel, the executable specified in the kernelspec is simply 'python'.
+     if any(a.startswith("bdist") for a in sys.argv):
+-        argv = make_ipkernel_cmd(executable="python")
++        argv = make_ipkernel_cmd(executable="python3")
+     # When installing from source, the full `sys.executable` can be used.
+     if any(a.startswith("install") for a in sys.argv):
+         argv = make_ipkernel_cmd()
+-- 
+2.17.1
+

@@ -1,12 +1,15 @@
-inherit pypi python_setuptools_build_meta
-
-DEPENDS += " \
-	${PYTHON_PN}-prompt-toolkit-native \
-	"
-
-SUMMARY = "Jupyter notebook"
+SUMMARY = "IPython Kernel for Jupyter"
 LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://COPYING.md;beginline=1;endline=34;md5=f0a133522b9d35a1ecee12860db8e986"
+
+SRC_URI[sha256sum] = "0e28273e290858393e86e152b104e5506a79c13d25b951ac6eca220051b4be60"
+SRC_URI += "\
+    file://0001-setup.py-Use-python3-executable-as-default-interpret.patch \
+    "
+
+inherit pypi setuptools3
+
+PYPI_PACKAGE = "ipykernel"
 
 DEPENDS += " \
         ${PYTHON_PN}-ipython-native \
@@ -28,7 +31,8 @@ DEPENDS += " \
         ${PYTHON_PN}-executing-native \
         ${PYTHON_PN}-asttokens-native \
         ${PYTHON_PN}-pure-eval-native \
-	${PYTHON_PN}-entrypoints-native \
+        ${PYTHON_PN}-entrypoints-native \
+        ${PYTHON_PN}-prompt-toolkit-native \
         "
 
 RDEPENDS:${PN} += " \
@@ -41,9 +45,6 @@ RDEPENDS:${PN} += " \
         ${PYTHON_PN}-matplotlib-inline \
         "
 
-FILES:${PN} += "/usr/share/jupyter"
+FILES:${PN} += "${datadir}/jupyter"
 
-#SRC_URI += "file://0001-Modify-hatch_build-to-use-python3-as-default-interpr.patch"
-SRC_URI[sha256sum] = "0e28273e290858393e86e152b104e5506a79c13d25b951ac6eca220051b4be60"
-
-
+BBCLASSEXTEND = "native"
