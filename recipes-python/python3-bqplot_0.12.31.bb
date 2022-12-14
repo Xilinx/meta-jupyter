@@ -10,7 +10,7 @@ inherit pypi python_setuptools_build_meta
 SRC_URI[sha256sum] = "cd880a84bd495ee5bf0687b496ddbc8049d2a9feff056f9343213e83e71737f7"
 
 DEPENDS += " \
-	${PYTHON_PN}-jupyter_packaging-native \
+	${PYTHON_PN}-jupyter-packaging-native \
 "
 RDEPENDS:${PN} += " \
 	${PYTHON_PN}-ipywidgets \
@@ -26,3 +26,7 @@ do_install:append() {
 }
 
 FILES:${PN} += "${datadir}/*"
+
+SKIP_RECIPE[python3-bqplot] ?= "python3 bplot is not used by packagegroup-python3-jupyter \
+and more over this recipe does not build with kirkstone and landale release as \
+it uses older version of python3-jupyter-packaging and other packages."
