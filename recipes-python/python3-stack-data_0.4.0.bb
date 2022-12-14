@@ -13,4 +13,8 @@ RDEPENDS:${PN} += " ${PYTHON_PN}-executing \
 
 SRC_URI[sha256sum] = "a90ae7e260f7d15aefeceb46f0a028d4ccb9eb8856475c53e341945342d41ea7"
 
+DEPENDS += " \
+	${PYTHON_PN}-setuptools-scm-native \
+"
+
 BBCLASSEXTEND = "native"
