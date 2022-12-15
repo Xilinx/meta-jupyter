@@ -13,4 +13,7 @@ RDEPENDS:${PN} += " \
 	${PYTHON_PN}-six \
 	"
 
-FILES:${PN} += "${datadir}/*"
+FILES:${PN} += " \
+    ${datadir}/* \
+    ${prefix}/etc/jupyter/nbconfig/notebook.d/jupyterlab-plotly.json \
+    "
