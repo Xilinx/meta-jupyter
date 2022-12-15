@@ -8,7 +8,7 @@ inherit pypi python_setuptools_build_meta
 
 RDEPENDS:${PN} += " \
 	${PYTHON_PN}-async-generator \
-	${PYTHON_PN}-jupyter_server \
+	${PYTHON_PN}-jupyter-server \
 	${PYTHON_PN}-nbconvert \
 	${PYTHON_PN}-jupyterlab-pygments \
 	${PYTHON_PN}-pygments \
