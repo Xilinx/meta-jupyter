@@ -8,4 +8,7 @@ inherit pypi python_setuptools_build_meta
 
 RDEPENDS:${PN} += "${PYTHON_PN}-ipyvue"
 
-FILES:${PN} += "${datadir}/*"
+FILES:${PN} += " \
+    ${datadir}/* \
+    ${prefix}/etc/jupyter/nbconfig/notebook.d/jupyter-vuetify.json \
+    "
