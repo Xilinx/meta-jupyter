@@ -34,6 +34,6 @@ This layer depends on:
 	URI: https://git.openembedded.org/openembedded-core
 	layers: meta, meta-poky
 
-	URI: https://git.openembedded.org/meta-python2
-	branch: master or xilinx current release version (e.g. hosister)
+	URI: https://git.openembedded.org/meta-openembedded
+	layers: meta-python
 
