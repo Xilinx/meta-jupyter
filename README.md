@@ -42,7 +42,7 @@ https://docs.yoctoproject.org/dev/contributor-guide/submit-changes.html#
 
 This layer depends on:
 
-	URI: https:///git.yoctoproject.org/poky
+	URI: https://git.yoctoproject.org/poky
 	layers: meta, meta-poky
 	branch: scarthgap
 
