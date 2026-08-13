@@ -8,13 +8,10 @@ DEPENDS += " \
 	python3-hatch-jupyter-builder-native \
 	python3-argon2-cffi-bindings-native \
 	python3-charset-normalizer-native \
-	python3-fqdn-native \
 	python3-hatchling-native \
-	python3-isoduration-native \
 	python3-jupyterlab-native \
 	python3-jupyterlab-pygments-native \
 	python3-jsonschema-native \
-	python3-uri-template-native \
 	"
 
 SRC_URI[sha256sum] = "4287b6da59740b32173d01d641f763d292f49c30e7a51b89c46ba8473126341e"
