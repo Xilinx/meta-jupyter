@@ -4,7 +4,6 @@ LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=159b7ae0b4f7071ca9f0295354f6a49e"
 
 DEPENDS = " \
-	python3-hatchling-native \
 	python3-jupyter-client-native \
 	python3-jupyter-core-native \
 	python3-dateutil-native \

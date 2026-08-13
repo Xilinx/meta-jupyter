@@ -3,7 +3,6 @@ HOMEPAGE = "https://jupyterlab-server.readthedocs.io"
 LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=16b24abb4aef09551533365c88c785cf"
 
-DEPENDS = "python3-hatchling-native"
 SRC_URI[sha256sum] = "35baa81898b15f93573e2deca50d11ac0ae407ebb688299d3a5213265033712c"
 
 PYPI_PACKAGE = "jupyterlab_server"
