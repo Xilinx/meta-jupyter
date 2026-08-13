@@ -7,9 +7,11 @@ DEPENDS += " \
 	python3-hatch-fancy-pypi-readme-native \
 	"
 
-SRC_URI[sha256sum] = "879c3e79a2729ce768ebb7d36d4609e3a78a4ca2ec3a9f12286ca057e3d0db08"
+SRC_URI[sha256sum] = "694ae5cc8a42f4c4e2bf2ca0e64e51e23a040c6a517a85074683d3959e1346c1"
 
 PYPI_PACKAGE = "argon2_cffi"
 inherit pypi python_hatchling
+
+RDEPENDS:${PN} = "python3-argon2-cffi-bindings"
 
 BBCLASSEXTEND = "native"

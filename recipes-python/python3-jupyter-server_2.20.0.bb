@@ -8,7 +8,7 @@ DEPENDS = " \
 	python3-hatch-jupyter-builder-native \
 	"
 
-SRC_URI[sha256sum] = "66095021aa9638ced276c248b1d81862e4c50f292d575920bbe960de1c56b12b"
+SRC_URI[sha256sum] = "b5778ba337d8015a3dc2b80803ecdd5ac18d3797fddf61a50ea5fb472b4ebe14"
 
 PYPI_PACKAGE = "jupyter_server"
 inherit pypi python_hatchling

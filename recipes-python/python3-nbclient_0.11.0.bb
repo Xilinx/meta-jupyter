@@ -4,7 +4,7 @@ LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=62f188c37957b44d9adbe64cb1932895"
 
 DEPENDS = "python3-hatchling-native"
-SRC_URI[sha256sum] = "4b3f1b7dba531e498449c4db4f53da339c91d449dc11e9af3a43b4eb5c5abb09"
+SRC_URI[sha256sum] = "04a134a5b087f2c5887f228aca155db50169b8cd9334dee6942c8e927e56081a"
 
 inherit pypi python_hatchling
 

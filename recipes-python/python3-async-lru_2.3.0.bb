@@ -3,8 +3,9 @@ HOMEPAGE = "https://github.com/aio-libs/async-lru"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=637551ffe345b083f0847cebe17a634d"
 
-SRC_URI[sha256sum] = "b8a59a5df60805ff63220b2a0c5b5393da5521b113cd5465a44eb037d81a5627"
+SRC_URI[sha256sum] = "89bdb258a0140d7313cf8f4031d816a042202faa61d0ab310a0a538baa1c24b6"
 
+PYPI_PACKAGE = "async_lru"
 inherit pypi setuptools3
 
 RDEPENDS:${PN} += " \

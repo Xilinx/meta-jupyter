@@ -3,12 +3,12 @@ HOMEPAGE = "https://github.com/prometheus/client_python"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=86d3f3a95c324c9479bd8986968f4327"
 
-SRC_URI[sha256sum] = "287629d00b147a32dcb2be0b9df905da599b2d82f80377083ec8463309a4bb89"
+SRC_URI[sha256sum] = "04a91bcf94e2cf74a44a1a874d651a2e853ed354b6e822f3b7487751465d5c2b"
 
 PYPI_PACKAGE = "prometheus_client"
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta
 
-PACKAGECONFIG ?= "twisted"
+PACKAGECONFIG ?= ""
 PACKAGECONFIG[twisted] = ",,,python3-twisted"
 
 RDEPENDS:${PN} += " \

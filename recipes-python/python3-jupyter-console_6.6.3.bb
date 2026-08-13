@@ -11,11 +11,13 @@ inherit pypi python_hatchling
 
 RDEPENDS:${PN} = " \
 	python3-ipykernel \
+	python3-ipython \
 	python3-jupyter-client \
 	python3-jupyter-core \
 	python3-prompt-toolkit \
 	python3-pygments \
+	python3-pyzmq \
 	python3-traitlets \
-	"
+"
 
 BBCLASSEXTEND = "native"

@@ -14,7 +14,7 @@ DEPENDS = " \
 	"
 
 FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
-SRC_URI[sha256sum] = "f093a22c4a40f8828f8e330a9c297cb93dcab13bd9678ded6de8e5cf81c56215"
+SRC_URI[sha256sum] = "9acaaaf97d16355166e4085afe9d225bfbdf2b7ef520f9df3be8f2b248275e09"
 
 inherit pypi python_hatchling
 
@@ -27,12 +27,12 @@ RDEPENDS:${PN} = " \
 	python3-jupyter-client \
 	python3-jupyter-core \
 	python3-matplotlib-inline \
-	python3-nest-asyncio \
+	python3-nest-asyncio2 \
 	python3-packaging \
 	python3-psutil \
 	python3-pyzmq \
 	python3-tornado \
 	python3-traitlets \
-	"
+"
 
 BBCLASSEXTEND = "native"
