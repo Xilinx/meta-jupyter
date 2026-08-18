@@ -1,5 +1,5 @@
 SUMMARY = "A python library adding a json log formatter"
-HOMEPAGE = "http://github.com/madzak/python-json-logger"
+HOMEPAGE = "https://nhairs.github.io/python-json-logger"
 LICENSE = "BSD-2-Clause"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=44a18ebf6d8412ddd5d29217ff70e291"
 
