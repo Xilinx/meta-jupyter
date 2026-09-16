@@ -8,7 +8,5 @@ PYPI_PACKAGE = "qtpy"
 inherit pypi python_setuptools_build_meta
 
 RDEPENDS:${PN} = "python3-packaging"
-# the binding lives in meta-qt6, which this layer does not depend on
-RRECOMMENDS:${PN} = "python3-pyqt6"
 
 BBCLASSEXTEND = "native"
