@@ -29,7 +29,7 @@ https://docs.yoctoproject.org/dev/contributor-guide/submit-changes.html#
 `git format-patch -s --subject-prefix="meta-jupyter][<BRANCH_NAME>][PATCH" -1`
 
 **Example:**
-`git format-patch -s --subject-prefix="meta-jupyter][scarthgap][PATCH" -1`
+`git format-patch -s --subject-prefix="meta-jupyter][wrynose][PATCH" -1`
 
 **Maintainers:**
 
@@ -42,10 +42,10 @@ https://docs.yoctoproject.org/dev/contributor-guide/submit-changes.html#
 
 This layer depends on:
 
-	URI: https://git.yoctoproject.org/poky
-	layers: meta, meta-poky
-	branch: scarthgap
+	URI: https://git.openembedded.org/openembedded-core
+	layers: meta
+	branch: wrynose
 
 	URI: https://git.openembedded.org/meta-openembedded
 	layers: meta-oe, meta-python
-	branch: scarthgap
+	branch: wrynose
